@@ -23,6 +23,7 @@ using namespace std;
         cout << *(aptr + i) << " ";
     }
     cout << endl;
+    cout << endl;
     /*
     cout << "For a range-based for loop:\n";
     for(auto i : aptr)
@@ -30,7 +31,15 @@ using namespace std;
         cout << i << " ";
     }
     cout << endl;
-    */
+*/
+
+
+
+
+
+
+
+
 
     // this doesn't work for arrays:    delete aptr;
     // to delete an array, you tell the compiler that you're not deleting just 4 bytes, but all the array
@@ -49,4 +58,5 @@ using namespace std;
         cout << i;
     }
     */
+   return 0;
  }
